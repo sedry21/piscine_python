@@ -1,4 +1,3 @@
-```python
 def give_bmi(height: list[int | float],
              weight: list[int | float]) -> list[int | float]:
     if not isinstance(height, list) or not isinstance(weight, list):
@@ -37,4 +36,3 @@ def apply_limit(bmi: list[int | float], limit: int) -> list[bool]:
         result.append(value > limit)
 
     return result
-```
