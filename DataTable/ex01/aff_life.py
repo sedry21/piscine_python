@@ -20,9 +20,10 @@ def display_country(dataset, country: str):
     plt.xlabel("Year")
     plt.ylabel("Life expectancy")
     plt.show()
+    # plt.savefig("plot.png")   # au lieu de plt.show()
 
 
 if __name__ == "__main__":
     dataset = load("life_expectancy_years.csv")
     if dataset is not None:
-        display_country(dataset, "France")
+        display_country(dataset, "Madagascar")
